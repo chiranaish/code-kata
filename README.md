@@ -34,3 +34,43 @@
 
 - Any language, any platform
 - One of the above problems or both, if you feel like it.
+
+## Problem 1: Fixed Width File Parser
+
+This solution parses a fixed-width file and converts it into a delimited CSV file.
+
+### Steps to execute problem-1
+
+1. Navigate to the `problem_1` directory.
+2. Ensure you have Python installed.
+3. Run the script:
+
+    ```bash
+    ./fixed_width_parser.sh
+    ```
+
+### Input/Output
+
+- Input: `input.txt` (fixed-width file)
+- Output: `output.csv` (delimited CSV)
+
+---
+
+## Problem 2: Data Anonymization with PySpark
+
+This solution processes a CSV file containing personal data and anonymizes the `first_name`, `last_name`, and `address` columns using PySpark.
+
+### Steps to execute problem-2
+
+1. Ensure you have Python and PySpark installed.
+2. Navigate to the `problem_2` directory.
+3. Run the script:
+
+    ```bash
+    ./anonymize_data.sh
+    ```
+
+### Input/Output
+
+- Input: `input.csv` (CSV file with sensitive data)
+- Output: `out_anonym.csv` (anonymized CSV)
