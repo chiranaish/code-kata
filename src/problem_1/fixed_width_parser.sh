@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Ensure the script is executable
-# chmod +x run_problem_1.sh
+# chmod +x fixed_width_parser.sh
 
-echo "Running fixed width file parser..."
+echo "Started executing fixed width file parser..."
 python3 fixed_width_parser.py
-echo "Parsing complete. Check output.csv."
+echo "Fixed width Parsing completed. Validate the output written to output.csv."
